@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import './index.css';
 import Employee from './components/Employee';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   // }
 
   return (
-    <div className='App bg-red-300'>
+    <div className='App bg-orange-500'>
       {showEmployees ? 
       (<>      
         {/* <input type="text" onChange={changeRole} /> */}
